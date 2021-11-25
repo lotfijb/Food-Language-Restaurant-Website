@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./bg.jpg");
+  background-size: cover;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.links {
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.links li a:hover {
+  color: rgb(35, 181, 211);
+  transition-duration: 350ms;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.welcome {
+  text-align: center;
+  font-family: "Roboto", monospace;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 23px;
+  font-weight: bold;
+}
+input {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(231, 229, 229);
+  font-size: 15px;
+}
+.newsletter {
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 1000px;
+  color: #23b5d3;
+}
+.hungry {
+  margin-top: -350px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 1000px;
+  color: #ecf0f1;
+  padding: 20px;
+}
+.newsbutton {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  color: #ecf0f1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+.inputs {
+  margin-top: 25px;
+  padding: 9px 0px;
+  color: #ecf0f1;
+}
+.newsbutton:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.subscribe {
+  font-family: "Roboto", monospace;
+  font-size: 25px;
+  color: #ecf0f1;
+}
+.hun {
+  font-family: "Roboto", monospace;
+  font-size: 25px;
+  color: #ecf0f1;
+  padding: 20px;
+  line-height: 65px;
+}
+.buttonhun {
+  padding: 9px 25px;
+  background-color: rgba(255, 215, 0, 0.9);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.buttonhun:hover {
+  background-color: rgba(255, 215, 0, 1);
+}

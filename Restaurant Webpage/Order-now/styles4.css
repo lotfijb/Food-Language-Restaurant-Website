@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/Order-now/order-bg.jpg");
+  background-size: cover;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.links {
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.links li a:hover {
+  color: rgb(35, 181, 211);
+  transition-duration: 350ms;
+}
+.welcome {
+  text-align: center;
+  font-family: "Roboto", monospace;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -45px;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  align-content: center;
+  margin: 70px 85px;
+}
+.type1 {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ecf0f1;
+  border-radius: 20px;
+  align-items: center;
+}
+.type1:hover {
+  background-color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition-duration: 600ms;
+}
+.fdimg {
+  margin-left: 64px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  border-left: 80%;
+  border-right: 80%;
+  border: 2px solid #ecf0f1;
+}
+.foodtext {
+  color: #ecf0f1;
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  text-align: center;
+}
+.more {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #ecf0f1;
+  display: flex;
+  margin-left: 770px;
+}
+.more:hover {
+  background-color: gold;
+  color: black;
+}

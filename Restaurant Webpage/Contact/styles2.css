@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./bg-contact.jpg");
+  background-size: cover;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.links {
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.links li a:hover {
+  color: rgb(35, 181, 211);
+  transition-duration: 350ms;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.welcome {
+  text-align: center;
+  font-family: "Roboto", monospace;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 23px;
+  font-weight: bold;
+}
+input {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(231, 229, 229);
+  font-size: 15px;
+}
+.helpinfo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  width: 600px;
+  color: #ecf0f1;
+  margin-top: 90px;
+  margin-left: 80px;
+}
+.send {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  color: #ecf0f1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-family: "Roboto", monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+.send:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.know {
+  font-family: "Roboto", monospace;
+  font-size: 25px;
+  color: #ecf0f1;
+}
+.question {
+  font-family: "Roboto", monospace;
+  font-size: 25px;
+  color: #ecf0f1;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  padding: 9px 25px;
+  margin-top: -240px;
+  margin-left: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 600px;
+}
+textarea {
+  resize: none;
+  margin-top: 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(231, 229, 229);
+  font-size: 15px;
+}
+
+.fill {
+  padding: 20px;
+}

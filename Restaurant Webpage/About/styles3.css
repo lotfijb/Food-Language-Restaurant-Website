@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./bg-about.jpg");
+  background-size: cover;
+}
+
+li,
+a,
+button {
+  font-family: "Roboto", monospace;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 30px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.links {
+  list-style: none;
+}
+.links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.links li a:hover {
+  color: rgb(35, 181, 211);
+  transition-duration: 350ms;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(1, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(1, 136, 169, 0.8);
+}
+.who {
+  text-align: center;
+  font-family: "Roboto", monospace;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 23px;
+  font-weight: bold;
+}
+.location {
+  text-align: left;
+  font-family: "Roboto", monospace;
+  text-transform: uppercase;
+  color: #ecf0f1;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 60px;
+  text-align: center;
+  margin-left: 1300px;
+  margin-top: -320px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.locimg {
+  padding: 10px;
+  border-radius: 20px;
+}
+.description {
+  font-family: "Roboto", monospace;
+  color: #ecf0f1;
+  font-weight: 400;
+  font-size: 25px;
+  width: 570px;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #0188a933;
+  margin-top: 70px;
+  margin-left: 560px;
+  border: 2px solid #0188a933;
+  border-radius: 8px;
+}
+.restlogo {
+  margin-top: -400px;
+  margin-left: 90px;
+}
+.social {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 22px 20%;
+}
