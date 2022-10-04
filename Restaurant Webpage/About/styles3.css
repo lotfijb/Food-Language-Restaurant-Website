@@ -23,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
+  align-content: flex-end;
   padding: 30px 10%;
 }
 .logo {
